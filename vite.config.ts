@@ -6,5 +6,10 @@ export default defineConfig({
   server: {
     port: 5173,
     host: true,
+    allowedHosts: ["sociothon-2026.onrender.com"],
+  },
+  preview: {
+    host: true,
+    allowedHosts: ["sociothon-2026.onrender.com"],
   },
 });
